@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { View, Text, Image, TouchableHighlight } from 'react-native';
-import styles from '../../styles.js';
+import styles, { pallete } from '../../styles.js';
 
 class Home extends Component {
   navAbout() {
@@ -11,9 +11,9 @@ class Home extends Component {
   render() {
     return (
       <View style={styles.imageContainer}>
-        <Image source={require('./imgs/diamonds.jpg')} style={styles.imageHead}>
+        <Image style={styles.imageHead} source={require('./imgs/diamonds.jpg')}>
           <Text style={styles.title}>Sourcetom</Text>
-          <TouchableHighlight onPress={this.navAbout.bind(this)}>
+          <TouchableHighlight style={styles.button} onPress={this.navAbout.bind(this)} underlayColor={pallete.purple}>
             <Text>About</Text>
           </TouchableHighlight>
         </Image>

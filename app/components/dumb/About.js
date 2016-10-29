@@ -1,18 +1,18 @@
 import React, {Component} from 'react';
 import { View, Text, ToolbarAndroid } from 'react-native';
-import styles from '../../styles.js';
+import styles, { pallete } from '../../styles.js';
 
 class About extends Component {
   render() {
     return (
-      <View style={styles.imageContainer}>
+      <View style={styles.fillContainer}>
         <ToolbarAndroid
           style={styles.toolbar}
           title={this.props.title}
           navIcon={require('./imgs/back.png')}
           onIconClicked={this.props.navigator.pop}
-          titleColor={'white'}/>
-        <Text>About me!</Text>
+          titleColor={pallete.black}/>
+        <Text style={styles.light}>About me!</Text>
       </View>
     );
   }
