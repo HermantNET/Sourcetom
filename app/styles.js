@@ -27,7 +27,8 @@ const styles = StyleSheet.create({
     height: 56
   },
   light: {
-    color: pallete.white
+    color: pallete.white,
+    fontFamily: 'latoRegular'
   },
   jumbotron: {
     flex: 2,
@@ -69,31 +70,52 @@ const styles = StyleSheet.create({
     elevation: 3
   },
   textOnDark: {
-    color: pallete.grey
+    color: pallete.grey,
+    fontFamily: 'latoRegular'
   },
   textDefault: {
-    color: pallete.base
+    color: pallete.base,
+    fontFamily: 'latoRegular',
+    lineHeight: 25
   },
-  heading: {
+  textStrong: {
+    color: pallete.strong,
+    fontFamily: 'latoRegular'
+  },
+  headingOnDark: {
     color: pallete.white,
     fontSize: 30,
     fontFamily: 'latoRegular'
   },
-  greyBox: {
-    flex: 1,
-    backgroundColor: pallete.grey,
+  headingDefault: {
+    color: pallete.strong,
+    fontSize: 30,
+    fontFamily: 'latoLight',
+    textAlign: 'center'
+  },
+  subHeading: {
+    color: pallete.base,
+    fontFamily: 'latoRegular',
+    textAlign: 'center',
+    margin: 20
+  },
+  contactImageBox: {
     padding: 15,
+    borderBottomWidth: 4,
+    borderColor: pallete.highlight,
+    width: undefined,
+    height: undefined
+  },
+  iconBox: {
     flexDirection: 'row',
     flexWrap: 'wrap',
-    justifyContent: 'space-around',
-    alignItems: 'center',
-    borderBottomWidth: 4,
-    borderColor: pallete.highlight
+    justifyContent: 'space-around'
   },
   whiteBox: {
-    flex: 2,
     backgroundColor: pallete.white,
-    padding: 15
+    padding: 15,
+    flexDirection: 'row',
+    justifyContent: 'center'
   },
   iconImage: {
     height: 64,

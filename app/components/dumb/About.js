@@ -38,7 +38,7 @@ class About extends Component {
             ellipsizeMode='tail'
             numberOfLines={this.state.numLines[0]}>
 
-            <Text style={styles.heading}>Who is Tom?{"\n"}</Text>
+            <Text style={styles.headingOnDark}>Who is Tom?{"\n"}</Text>
             <Text style={styles.textOnDark}>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis repellat ipsum incidunt laborum doloribus mollitia molestias quas optio, fuga sapiente! Quos harum, sapiente, perspiciatis inventore dolorum ratione nemo. Rerum, laudantium. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, ullam, suscipit. Expedita cupiditate architecto minus officia nisi iste dicta ullam praesentium sint nesciunt, voluptatibus, molestiae maxime illo, beatae quibusdam et?
           </Text>
@@ -52,7 +52,7 @@ class About extends Component {
             ellipsizeMode='tail'
             numberOfLines={this.state.numLines[1]}>
 
-            <Text style={styles.heading}>Tom is...{"\n"}</Text>
+            <Text style={styles.headingOnDark}>Tom is...{"\n"}</Text>
             <Text style={styles.textOnDark}>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis repellat ipsum incidunt laborum doloribus mollitia molestias quas optio, fuga sapiente! Quos harum, sapiente, perspiciatis inventore dolorum ratione nemo. Rerum, laudantium.
           </Text>
@@ -67,7 +67,7 @@ class About extends Component {
             ellipsizeMode='tail'
             numberOfLines={this.state.numLines[2]}>
 
-            <Text style={styles.heading}>Tom is Not...{"\n"}</Text>
+            <Text style={styles.headingOnDark}>Tom is Not...{"\n"}</Text>
             <Text style={styles.textOnDark}>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis repellat ipsum incidunt laborum doloribus mollitia molestias quas optio, fuga sapiente! Quos harum, sapiente, perspiciatis inventore dolorum ratione nemo. Rerum, laudantium.
           </Text>
