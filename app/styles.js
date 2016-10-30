@@ -4,7 +4,7 @@ export const pallete = {
   white: '#fff',
   strong: '#282828',
   base: '#777777',
-  grey: '#a2b1bf',
+  grey: '#b1c4d1',
   highlight: '#84bd00',
   dark: '#658d1b',
   darkest: '#415A12',
@@ -45,7 +45,8 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     flexWrap: 'wrap',
     alignItems: 'center',
-    justifyContent: 'center'
+    justifyContent: 'center',
+    backgroundColor: pallete.white
   },
   title: {
     margin: 5,
@@ -67,13 +68,36 @@ const styles = StyleSheet.create({
     width: 150,
     elevation: 3
   },
-  text: {
+  textOnDark: {
     color: pallete.grey
+  },
+  textDefault: {
+    color: pallete.base
   },
   heading: {
     color: pallete.white,
     fontSize: 30,
     fontFamily: 'latoRegular'
+  },
+  greyBox: {
+    flex: 1,
+    backgroundColor: pallete.grey,
+    padding: 15,
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    justifyContent: 'space-around',
+    alignItems: 'center',
+    borderBottomWidth: 4,
+    borderColor: pallete.highlight
+  },
+  whiteBox: {
+    flex: 2,
+    backgroundColor: pallete.white,
+    padding: 15
+  },
+  iconImage: {
+    height: 64,
+    width: 64
   }
 });
 
