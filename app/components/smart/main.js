@@ -5,7 +5,7 @@ import { Navigator } from 'react-native';
 import Home from '../dumb/Home.js';
 import About from '../dumb/About.js';
 import Contact from '../dumb/Contact.js';
-import Game from '../dumb/Game.js';
+import Code from '../dumb/Code.js';
 
 export default class Main extends Component {
   navigatorRenderScene(route, navigator) {
@@ -15,8 +15,8 @@ export default class Main extends Component {
         return (<About navigator={navigator} title="About" />);
       case 'contact':
         return (<Contact navigator={navigator} title="Contact" />);
-      case 'game':
-        return (<Game navigator={navigator} title="Game" />);      
+      case 'code':
+        return (<Code navigator={navigator} title="Code" />);      
       default:
         return (<Home navigator={navigator} title="Home" />);
     }

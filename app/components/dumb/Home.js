@@ -13,9 +13,9 @@ class Home extends Component {
       id: 'contact'
     });
   }
-  navGame() {
+  navCode() {
     this.props.navigator.push({
-      id: 'game'
+      id: 'code'
     });
   }
   render() {
@@ -33,8 +33,8 @@ class Home extends Component {
           <TouchableHighlight style={styles.button} onPress={this.navContact.bind(this)} underlayColor={pallete.darkest}>
             <Text style={styles.light}>Contact</Text>
           </TouchableHighlight>
-          <TouchableHighlight style={styles.button} onPress={this.navGame.bind(this)} underlayColor={pallete.darkest}>
-            <Text style={styles.light}>Game</Text>
+          <TouchableHighlight style={styles.button} onPress={this.navCode.bind(this)} underlayColor={pallete.darkest}>
+            <Text style={styles.light}>Code</Text>
           </TouchableHighlight>
         </View>
       </View>
