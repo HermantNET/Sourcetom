@@ -20,7 +20,7 @@ const styles = StyleSheet.create({
   },
   fillContainer: {
     flex: 1,
-    backgroundColor: pallete.white
+    backgroundColor: pallete.black
   },
   toolbar: {
     backgroundColor: pallete.dark,
@@ -50,7 +50,7 @@ const styles = StyleSheet.create({
   title: {
     margin: 5,
     color: pallete.white,
-    fontFamily: 'latoBold',
+    fontFamily: 'latoRegular',
     fontSize: 50,
     textShadowColor: pallete.black,
     textShadowRadius: 5,
@@ -68,10 +68,12 @@ const styles = StyleSheet.create({
     elevation: 3
   },
   text: {
-    color: pallete.base
+    color: pallete.grey
   },
   heading: {
-    color: pallete.strong
+    color: pallete.white,
+    fontSize: 30,
+    fontFamily: 'latoRegular'
   }
 });
 
