@@ -9,7 +9,11 @@ class Code extends Component {
     return (
       <View style={styles.fillContainer}>
         <Toolbar title={this.props.title} navigator={this.props.navigator} />
-        <LogosAndInfo backgroundImage={require('./imgs/laptopFade6.jpg')} title="Tom's Code" subtitle="Places Tom puts his code:" logos={[require('./imgs/phone.png', require('./imgs/emai'))]} />
+        <LogosAndInfo
+        	backgroundImage={require('./imgs/laptopFade6.jpg')} 
+        	title="Tom's Code" 
+        	subtitle="Places Tom puts his code:" 
+        	logos={[require('./imgs/github.png'), require('./imgs/codewars.png'), require('./imgs/codepen.png')]} />
       </View>
     );
   }
