@@ -20,17 +20,11 @@ class LogosAndInfo extends Component {
           <Text style={styles.headingDefault}>{this.props.title}</Text>
           <Text style={styles.subHeading}>{this.props.subtitle}</Text>
           <View style={styles.iconBox}>
-            {this.props.logos.map((logo) => <Image source={logo} style={styles.iconImage} />)}
+            {this.props.logos.map((logo, index) => <Image source={logo} style={styles.iconImage} key={index} />)}
           </View>
         </Image>
         <View style={styles.whiteBox}>
-          <Text style={styles.textDefault}>
-            <Text style={{lineHeight: 0}}>{"\n"}</Text>
-            <Text><Text style={styles.textStrong}>Phone: </Text>+1 (941) 321-3860{"\n"}</Text>
-            <Text><Text style={styles.textStrong}>Email: </Text>thomas@tehjr.com{"\n"}</Text>
-            <Text><Text style={styles.textStrong}>Skype: </Text>hermant.edu@gmail.com{"\n"}</Text>
-            <Text><Text style={styles.textStrong}>Email: </Text>thomas@tehjr.com{"\n"}</Text>
-          </Text>
+          {this.props.children}
         </View>
       </ScrollView>
     );

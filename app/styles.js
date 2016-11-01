@@ -16,7 +16,8 @@ export const pallete = {
 const styles = StyleSheet.create({
   imageContainer: {
     flex: 1,
-    alignItems: 'stretch'
+    alignItems: 'stretch',
+    backgroundColor: pallete.white
   },
   fillContainer: {
     flex: 1,
@@ -76,7 +77,8 @@ const styles = StyleSheet.create({
   textDefault: {
     color: pallete.base,
     fontFamily: 'latoRegular',
-    lineHeight: 25
+    lineHeight: 25,
+    textAlign: 'center'
   },
   textStrong: {
     color: pallete.strong,
@@ -85,7 +87,8 @@ const styles = StyleSheet.create({
   headingOnDark: {
     color: pallete.white,
     fontSize: 30,
-    fontFamily: 'latoRegular'
+    fontFamily: 'latoRegular',
+    marginBottom: 10
   },
   headingDefault: {
     color: pallete.strong,

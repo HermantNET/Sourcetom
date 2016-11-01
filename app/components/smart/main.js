@@ -1,9 +1,14 @@
-import React, { Component } from 'react';
-import { Navigator } from 'react-native';
+import React, {
+  Component
+} from 'react';
+import {
+  Navigator
+} from 'react-native';
 
 // Components
 import Home from '../dumb/Home.js';
 import About from '../dumb/About.js';
+import Layout from '../smart/Layout.js';
 import Contact from '../dumb/Contact.js';
 import Code from '../dumb/Code.js';
 
@@ -12,11 +17,11 @@ export default class Main extends Component {
     _navigator = navigator;
     switch (route.id) {
       case 'about':
-        return (<About navigator={navigator} title="About" />);
+        return (<Layout navigator={navigator} title="About"><About /></Layout>);
       case 'contact':
-        return (<Contact navigator={navigator} title="Contact" />);
+        return (<Layout navigator={navigator} title="Contact"><Contact /></Layout>);
       case 'code':
-        return (<Code navigator={navigator} title="Code" />);      
+        return (<Layout navigator={navigator} title="Code"><Code /></Layout>);
       default:
         return (<Home navigator={navigator} title="Home" />);
     }

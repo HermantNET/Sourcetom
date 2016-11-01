@@ -1,16 +1,8 @@
 Who is Tom?
-	When the universe needs saving, who do you call? Not Tom.
-	When your plumbing busts, what do you need? Not Tom.
-	When you need advice on what to wear to your date, who do you ask? Definently not Tom.
-	When you need a React Native developer, who will get the job done? Tom.
+	
 
 Tom is...
-	Passionate about the real-time web.
-	A JavaScript enthusiast.
-	Obsessed with React.
-	In love with the current tech scene.
-	Always thinking about how he can improve.
-	A free-flow, methodical, lifestyle practicioner ^TM
+	
 
 Tom is not...
 	A senior developer.
@@ -19,10 +11,3 @@ Tom is not...
 	A sports fan.
 	Unwilling to to learn new things.
 	Scared of change.
-
-*----------------*
-Contact Page
-
-Github: https://github.com/HermantNET
-Codewars: https://www.codewars.com/users/HermantNET
-Codepen: http://codepen.io/hermantnet/
