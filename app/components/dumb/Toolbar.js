@@ -8,7 +8,7 @@ class Toolbar extends Component {
         <ToolbarAndroid
           style={styles.toolbar}
           title={this.props.title}
-          navIcon={require('./imgs/back.png')}
+          navIcon={require('./imgs/backWhite.png')}
           onIconClicked={this.props.navigator.pop}
           titleColor={pallete.white}/>
     );
